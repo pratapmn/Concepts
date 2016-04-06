@@ -12,7 +12,7 @@ public class CombinationTest extends TestCase {
 
     public void testDoCombination() throws Exception {
         Combination combination = new Combination();
-        List<String> combinations = combination.doCombination("123".toCharArray());
+        List<String> combinations = combination.doCombination("aabcd".toCharArray());
         combinations.forEach(s -> {
             System.out.println(s);
         });
