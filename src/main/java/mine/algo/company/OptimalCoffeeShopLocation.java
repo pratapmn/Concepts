@@ -1,11 +1,9 @@
+/* Twitter Phone round */
+
 package mine.algo.company;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Created by pratapn on 4/15/16.
- */
 
 /*
 
