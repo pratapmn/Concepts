@@ -1,55 +1,61 @@
 package mine.algo.strings;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
-/**
- * Created by pratapn on 4/4/16.
+/*
+Given a string, we can "shift" each of its letter to its successive letter, for example: "abc" -> "bcd". We can keep "shifting" which forms the sequence:
+
+"abc" -> "bcd" -> ... -> "xyz"
+Given a list of strings which contains only lowercase alphabets, group all strings that belong to the same shifting sequence.
+
+For example, given: ["abc", "bcd", "acef", "xyz", "az", "ba", "a", "z"],
+Return:
+
+[
+  ["abc","bcd","xyz"],
+  ["az","ba"],
+  ["acef"],
+  ["a","z"]
+]
  */
 public class GroupShiftedStrings {
 
 
-    public List<List<String>> doGrouping(List<String> input) {
-        final Map<String, List<String>> hash = new HashMap<>();
-        input.forEach(s -> {
-            char[] chars = s.toCharArray();
-
-            // Case: One char
-            if (chars.length == 1) {
-                String key = Integer.toString(0);
-                if (hash.get(key) != null) {
-                    hash.get(key).add(s);
-                } else {
-                    List<String> newList = new ArrayList<String>();
-                    newList.add(s);
-                    hash.put(key, newList);
-                }
-                return;
+    public List<List<String>> doGrouping(String[] strings) {
+        if (strings == null || strings.length == 0) {
+            return Collections.EMPTY_LIST;
+        }
+        Arrays.sort(strings);
+        Map<String, List<String>> container = new HashMap<>();
+        for (String item : strings) {
+            String hash = getHash(item);
+            if (container.containsKey(hash)) container.get(hash).add(item);
+            else {
+                List<String> groups = new ArrayList<>();
+                groups.add(item);
+                container.put(hash, groups);
             }
+        }
 
-            // Case: More than one char
-            StringBuffer keyBuff = new StringBuffer();
-            for (int i = 0; i < chars.length - 1; i++) {
-                int diff = (chars[i] - chars[i + 1] + 26) % 26;
-                keyBuff.append(diff);
-            }
-            String key = keyBuff.toString();
-            if (hash.get(key) != null) {
-                hash.get(key).add(s);
-            } else {
-                List<String> newList = new ArrayList<String>();
-                newList.add(s);
-                hash.put(key, newList);
-            }
-
-        });
-
+        // convert to output format
         List<List<String>> result = new ArrayList<>();
-        hash.forEach((key, val) -> {
-            result.add(val);
-        });
+        for (String key : container.keySet()) {
+            result.add(container.get(key));
+        }
         return result;
+    }
+
+    private String getHash(String input) {
+        char[] ic = input.toCharArray();
+        String hash = "";
+        int offset = ic[0] - 'a';
+        for (int i = 0; i < ic.length; i++) {
+            char c = (char) (ic[i] - offset);
+            if (c < 'a') {
+                c += 26;
+            }
+            hash += c;
+        }
+        return hash;
     }
 }
