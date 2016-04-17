@@ -2,6 +2,7 @@
 Place where I code to understand the concepts better
 
 ## Algorithm concepts
+1. https://github.com/pratapmn/Concepts/wiki
 1. https://www.youtube.com/watch?v=XCPZBD9lbVo
 
 ## Interview Preparation Material
