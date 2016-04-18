@@ -1,6 +1,6 @@
 package mine.algo.company;
 
-/* Company Lending Club
+/* Company Lending Club: https://coderpad.io/FGZGCTFW
 
 input = {1,0,1,0,5,3,12}
 
