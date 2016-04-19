@@ -12,7 +12,7 @@ public class WordBreakTest extends TestCase {
     public void testDoWordBreak() throws Exception {
         Set<String> dict = new HashSet<>(Arrays.asList("cat", "cats", "and", "sand", "dog"));
         WordBreak wordBreak = new WordBreak();
-        List<String> result = wordBreak.wordBreak("catsanddog", dict);
+        Set<String> result = wordBreak.wordBreak("catsanddog", dict);
         System.out.println(result);
 
     }
