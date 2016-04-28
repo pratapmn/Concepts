@@ -1,6 +1,6 @@
 /* Twitter Phone round */
 
-package mine.algo.company;
+package mine.algo.company.twitter;
 
 import java.util.ArrayList;
 import java.util.List;

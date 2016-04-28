@@ -1,4 +1,4 @@
-package mine.algo.company;
+package mine.algo.company.twitter;
 
 import junit.framework.TestCase;
 

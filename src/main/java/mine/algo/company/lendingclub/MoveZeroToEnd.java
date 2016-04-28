@@ -1,4 +1,4 @@
-package mine.algo.company;
+package mine.algo.company.lendingclub;
 
 /* Company Lending Club: https://coderpad.io/FGZGCTFW
 

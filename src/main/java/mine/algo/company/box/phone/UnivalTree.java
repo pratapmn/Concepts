@@ -1,4 +1,4 @@
-package mine.algo.trees;
+package mine.algo.company.box.phone;
 
 /**
  * Created by pratapn on 4/12/16.
