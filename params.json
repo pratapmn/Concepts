@@ -1,6 +1,6 @@
 {
   "name": "Concepts",
   "tagline": "Place where I code to understand the concepts better",
-  "body": "* **End Goal Problems:** [Generic problem solving technique](https://github.com/pratapmn/Concepts/wiki/Generic-problem-solving-technique)\r\n* **Grouping and Subset Problems:** [Grouping and Subset technique](https://github.com/pratapmn/Concepts/wiki/Grouping-and-Subset-Techniques)",
+  "body": "# Concepts\r\nPlace where I code to understand the concepts better\r\n\r\n## Algorithm concepts\r\n1. https://github.com/pratapmn/Concepts/wiki\r\n1. https://www.youtube.com/watch?v=XCPZBD9lbVo\r\n\r\n## Interview Preparation Material\r\n### Important\r\n1. https://leetcode.com/\r\n1. http://1point3acres.com/bbs/forum.php?mod=forumdisplay&fid=145&filter=sortid&sortid=311\r\n1. https://aleigorithms.wordpress.com/\r\n1. https://www.topcoder.com/challenges/develop/active/?pageIndex=1\r\n1. http://www.developersbook.com/corejava/interview-questions/corejava-interview-questions-faqs.php\r\n1. http://stackoverflow.com/questions/58354/algorithm-data-structure-design-interview-questions\r\n1. http://courses.csail.mit.edu/iap/interview/materials.php\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
