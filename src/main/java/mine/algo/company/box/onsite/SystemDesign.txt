@@ -1,0 +1,9 @@
+1. Imagine a building with 4 elevators. Design a elevator control programe.
+2. Design a request rate handling system using the Leaky bucket concept.
+3. How will u scale this leaky bucket request handling to millions of random IP's coming in at unknown time.
+
+
+Other programming questions
+4. Given an array of time intervals, find the bbusy slots. Imagine this programe runs in watch so cant use extra memory.
+Example: [2-10, 7-15, 20-25, 26-30]
+should return [2-15, 20-25, 26-30, null]

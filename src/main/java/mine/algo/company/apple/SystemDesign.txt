@@ -1,0 +1,8 @@
+1. Imagine a Movie Itune store. we have N number of vendors, who are putting data in to the store. Design a system to handle this.
+2. Why we should not call public method in a constructor
+
+Algo question
+1. Consider list of houses and three colors with costs. now paint the houses such that no two neighbouring houses have same color
+ Minimize the cost of the painting.
+
+2. Given number K and array of integers find 2 numbers whos sum is equal to K

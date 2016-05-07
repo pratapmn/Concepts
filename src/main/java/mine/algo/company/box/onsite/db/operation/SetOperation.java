@@ -1,8 +1,8 @@
-package mine.algo.company.box.onsite.operation;
+package mine.algo.company.box.onsite.db.operation;
 
-import mine.algo.company.box.onsite.InMemDB.DB;
-import mine.algo.company.box.onsite.facade.Operation;
-import mine.algo.company.box.onsite.facade.Transaction;
+import mine.algo.company.box.onsite.db.InMemDB.DB;
+import mine.algo.company.box.onsite.db.facade.Operation;
+import mine.algo.company.box.onsite.db.facade.Transaction;
 
 /**
  * Created by pratapn on 4/27/16.

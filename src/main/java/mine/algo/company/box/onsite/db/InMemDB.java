@@ -1,12 +1,12 @@
-package mine.algo.company.box.onsite;
+package mine.algo.company.box.onsite.db;
 
-import mine.algo.company.box.onsite.facade.Operation;
-import mine.algo.company.box.onsite.facade.Transaction;
-import mine.algo.company.box.onsite.operation.CountOperation;
-import mine.algo.company.box.onsite.operation.DeleteOperation;
-import mine.algo.company.box.onsite.operation.GetOperation;
-import mine.algo.company.box.onsite.operation.SetOperation;
-import mine.algo.company.box.onsite.transaction.*;
+import mine.algo.company.box.onsite.db.facade.Operation;
+import mine.algo.company.box.onsite.db.facade.Transaction;
+import mine.algo.company.box.onsite.db.operation.CountOperation;
+import mine.algo.company.box.onsite.db.operation.DeleteOperation;
+import mine.algo.company.box.onsite.db.operation.GetOperation;
+import mine.algo.company.box.onsite.db.operation.SetOperation;
+import mine.algo.company.box.onsite.db.transaction.*;
 
 import java.util.HashMap;
 import java.util.Map;

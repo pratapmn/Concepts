@@ -1,0 +1,22 @@
+1. Given a component that can see a barcode and return a unique number design a visual search engine  for products
+imagine the data store which gets populated with new product data constantly.
+
+Ans:
+I Concentrated on
+Data quality
+Data reliability
+Scalability
+fast lookup
+Data consistency
+State management server
+
+
+2. Design a Whats app messenger for millions of users.
+If someone is offline how will u persist data and manage the data reliability and data consistency
+
+Ans: used persistent connections with master slave technique for reliability
+used eventual data consistency technique
+
+
+3. Given a number, convert it to binary value and then check if the binary is a palindrom or not.
+

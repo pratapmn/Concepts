@@ -1,4 +1,4 @@
-package mine.algo.company.box.onsite;
+package mine.algo.company.box.onsite.db;
 
 import org.junit.Assert;
 import org.junit.Test;

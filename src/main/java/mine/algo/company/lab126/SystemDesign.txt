@@ -1,0 +1,19 @@
+1. Design a image serving platform. Consider a scenario where millions of products are getting uploaded with images.
+now design a system to serve this images effectively for different services
+
+2. Implement a Semi immutable Hahsmap. Multiple threads will be using this hashmap and changes done by one thread
+ should not be visible to other threads
+
+3. Given a list of words. Give me the longest sequence of no repeating words
+Eg: cat dog tiger cat bear gif
+ans is 4
+
+4. Design and implement a simple bike share application. They should be able to take bike from any location and return
+bike in any location. User will be billed for the duration. Scale this system to millions of users
+
+5. lots of behavioral questions
+
+6. Given a matrix with blocks and numbers. find the shortest path to reach from number a to number b
+
+
+

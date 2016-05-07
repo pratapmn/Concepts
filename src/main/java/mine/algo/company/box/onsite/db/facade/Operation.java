@@ -1,6 +1,6 @@
-package mine.algo.company.box.onsite.facade;
+package mine.algo.company.box.onsite.db.facade;
 
-import mine.algo.company.box.onsite.InMemDB.DB;
+import mine.algo.company.box.onsite.db.InMemDB.DB;
 
 /**
  * Created by pratapn on 4/27/16.

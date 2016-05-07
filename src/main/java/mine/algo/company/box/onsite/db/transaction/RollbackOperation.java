@@ -1,7 +1,7 @@
-package mine.algo.company.box.onsite.transaction;
+package mine.algo.company.box.onsite.db.transaction;
 
-import mine.algo.company.box.onsite.InMemDB;
-import mine.algo.company.box.onsite.facade.Operation;
+import mine.algo.company.box.onsite.db.InMemDB;
+import mine.algo.company.box.onsite.db.facade.Operation;
 
 import java.util.Stack;
 
